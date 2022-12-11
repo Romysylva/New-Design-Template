@@ -1,0 +1,27 @@
+// THE COLOR VARIABLES
+
+$prim-c:#fafafa;
+$prim-d:#220000;
+$con-c: #922504;
+
+// SOCIAL COLOR 
+
+$inta-c: #cc0068;
+$face-c: #39759b;
+$tweet-c: #1da1f2;
+$youtube-c: #f80000;
+
+// THE SHADOW
+
+$shadow: 0 5px 15px rgba($prim-d, .5) ;
+$bx-shadow: 0px 5px 10px $prim-d;
+
+// THE bg-image
+$bg-img: url(/SASS-FOLDER/pro-assets==images/pro-images==assets/background-img.jpg);
+
+
+// the responsiveness
+
+$tablet-lg: 1024px;
+$tablet: 768px;
+$phone: 500px;

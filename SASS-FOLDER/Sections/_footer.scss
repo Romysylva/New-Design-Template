@@ -1,0 +1,43 @@
+/* THE FOOTER SECTION  */
+
+footer{
+    position: fixed;
+    bottom: .5rem;
+    width: 100%;
+    @include flex(row, center);
+    justify-content: space-between;
+
+    .copy{
+        color: $prim-d;
+        padding-left: 2rem;
+        font-size: 1.5em;
+    }
+    .social{
+        padding-right: 2rem;
+
+        a{
+            color: $prim-d;
+            padding: 0 0.2rem;
+           @include transition;
+
+            &:hover{
+                @include hover;
+            }
+            &:first-child:hover{
+                color: $inta-c;
+            }
+            
+            &:nth-child(2):hover{
+                color: $face-c;
+            }
+            &:last-child:hover{
+                color: $youtube-c;
+            }
+            &:nth-child(3):hover{
+                color: $tweet-c;
+            }
+        }
+
+    }
+}
+

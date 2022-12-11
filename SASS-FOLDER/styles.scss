@@ -1,0 +1,25 @@
+@import "config";
+@import "./variables";
+
+
+// google fonts 
+
+
+@import url("https://fonts.googleapis.com/css?family=roboto&displayswap");
+// THE COMPONENTS 
+
+@import "./components/Animations";
+@import "./components/buttons";
+@import "./components/mixins";
+@import "./components/typography";
+
+
+
+
+
+// THE SECTIONS
+
+@import "./Sections/nav";
+@import "./Sections/main";
+@import "./Sections/footer";
+@import "./Sections/responsiveness";

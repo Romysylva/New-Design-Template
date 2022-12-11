@@ -1,0 +1,46 @@
+/* THE NAVIGATION SECTION  */
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+
+    ul{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        li{
+            font-size: 2rem;
+            padding: 1rem 2rem;
+            a{
+                @include hover;
+                color: $prim-c;
+
+                &:hover {
+                    @include hover;
+                    box-shadow: $shadow;
+                    transition: .5s ease;
+                    -webkit-transition: all .5s ease;
+                    border: 1px solid rgba($prim-d, .25);
+                    padding: .3rem;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+
+                }
+            }
+        }
+    } 
+    
+    .menu-nav-right{
+        color:$con-c;
+        // color: color($con-c);
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+ 
+}
+
+
